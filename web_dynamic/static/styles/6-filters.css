@@ -3,14 +3,14 @@
     background: white;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 4px;
 }
 button {
     position: absolute;
     font-size: 18px;
-    background: #FF5A5F;
-    color: #FFFFFF;
+    background: #ff5a5f;
+    color: #ffffff;
     height: 48px;
     width: 20%;
     border-style: none;
@@ -44,7 +44,7 @@ button:hover {
 .locations {
     height: 100%;
     width: 25%;
-    border-right: 1px solid #DDDDDD;
+    border-right: 1px solid #dddddd;
 }
 .amenities {
     height: 100%;
@@ -54,9 +54,9 @@ button:hover {
 .popover {
     visibility: hidden;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 4px;
-    background: #FAFAFA;
+    background: #fafafa;
     padding-bottom: 15px;
     height: 300px;
     overflow-y: scroll;
@@ -64,7 +64,7 @@ button:hover {
     max-height: 300px;
 }
 
-.popover::-webkit-scrollbar{
+.popover::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -74,7 +74,7 @@ button:hover {
     margin-top: 0%;
 }
 
-.amenities .popover ul{
+.amenities .popover ul {
     margin: 0px;
 }
 
@@ -86,12 +86,12 @@ button:hover {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-.popover ul li{
+.popover ul li {
     padding: 4px;
     padding-left: 10px;
 }
 
-.popover ul h2{
+.popover ul h2 {
     margin-top: 1.5%;
     margin-bottom: 5%;
     margin-left: 0px;
@@ -100,4 +100,8 @@ button:hover {
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
+}
+
+.amenities input[type="checkbox"] {
+    margin-left: 10px;
 }
