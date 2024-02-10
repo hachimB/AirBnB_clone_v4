@@ -10,16 +10,17 @@ header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
-    width: 96%;
+    width: 20%;
 }
 #api_status {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #cccccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 97%;
+    transform: translate(-50%, -50%);
 }
 #api_status.available {
     background-color: #ff545f;
