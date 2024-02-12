@@ -20,6 +20,7 @@ button {
 }
 button:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 .filters div {
     display: inline-grid;
@@ -102,6 +103,11 @@ button:hover {
     visibility: visible;
 }
 
-.amenities input[type="checkbox"] {
+.amenities input[type="checkbox"],
+.cities {
     margin-left: 10px;
+}
+
+.states {
+    display: block;
 }
